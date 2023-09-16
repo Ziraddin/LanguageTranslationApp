@@ -3,15 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.HomeFragment">
+    tools:context=".Fragments.FavouritesFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fontFamily="@font/roboto_medium"
         android:gravity="center"
-        android:text="Home fragment"
+        android:text="Favourites fragment"
         android:textSize="36sp" />
 
 </FrameLayout>

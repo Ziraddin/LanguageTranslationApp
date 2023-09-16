@@ -1,9 +1,10 @@
-package com.zireddinismayilov.languagetranslationapp
+package com.zireddinismayilov.languagetranslationapp.Activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import com.zireddinismayilov.languagetranslationapp.R
 import java.util.Timer
 import java.util.TimerTask
 

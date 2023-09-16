@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LanguageTranslationApp</string>
+    <string name="app_name">Translate</string>
     <string name="translate_on_the_go">Translate on the Go</string>
     <string name="title_activity_home">Language Translator</string>
     <!-- Strings used for fragments for navigation -->

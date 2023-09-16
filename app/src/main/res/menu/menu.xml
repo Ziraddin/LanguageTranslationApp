@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/chat"
+        android:id="@+id/chatFragment"
         android:icon="@drawable/mic"
         android:title="Chat" />
     <item
-        android:id="@+id/camera"
+        android:id="@+id/cameraFragment"
         android:icon="@drawable/camera"
         android:title="Camera" />
 
     <item
+        android:id="@+id/homeFragment123"
         android:enabled="false"
         android:title="" />
     <item
-        android:id="@+id/history"
+        android:id="@+id/historyFragment"
         android:icon="@drawable/history"
         android:title="History" />
     <item
-        android:id="@+id/favourite"
+        android:id="@+id/favouritesFragment"
         android:icon="@drawable/star"
         android:title="Favourite" />
 </menu>
