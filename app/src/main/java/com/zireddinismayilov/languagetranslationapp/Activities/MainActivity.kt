@@ -20,16 +20,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        initNavCont()
-        bottomNavControllerSetUp()
-        setUpHomeBtn()
-        drawerNavToggleSetUp()
-    }
-
-    private fun initNavCont() {
         navHostFragment =
             supportFragmentManager.findFragmentById(R.id.fragmentContainerView) as NavHostFragment
         navController = navHostFragment.navController
+        bottomNavControllerSetUp()
+        setUpHomeBtn()
+        drawerNavToggleSetUp()
     }
 
     private fun bottomNavControllerSetUp() {

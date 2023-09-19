@@ -20,7 +20,7 @@
             android:label="@string/title_activity_home"
             android:theme="@style/Theme.LanguageTranslationApp" />
         <activity
-            android:name=".Activities.SplashActivity"
+            android:name=".Activities.SpScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
