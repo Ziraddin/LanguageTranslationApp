@@ -88,6 +88,6 @@ class HomeFragment : Fragment() {
                 requireContext(), "Failed to download language model!", Toast.LENGTH_SHORT
             ).show()
         }
-        
+
     }
 }
