@@ -48,6 +48,7 @@
                     android:paddingHorizontal="20dp" />
 
                 <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/changeLangs"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="?android:attr/selectableItemBackgroundBorderless"
@@ -114,6 +115,7 @@
                             android:textSize="22sp" />
 
                         <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/srcLangSound"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="0.1"
@@ -128,6 +130,7 @@
                             android:visibility="invisible" />
 
                         <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/clearTextBtn"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="0.1"
@@ -162,6 +165,7 @@
                         app:layout_constraintStart_toStartOf="parent">
 
                         <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/microphone"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="0.1"
@@ -232,6 +236,7 @@
                             android:textSize="22sp" />
 
                         <androidx.appcompat.widget.AppCompatImageButton
+                            android:id="@+id/targetLangSound"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="0.1"
@@ -246,16 +251,15 @@
 
                     </LinearLayout>
 
-                    <EditText
-                        android:id="@+id/translatedTextEditText"
+                    <TextView
+                        android:id="@+id/translatedTV"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:background="@android:color/transparent"
-                        android:editable="false"
                         android:hint="Hello how are you?"
                         android:minHeight="50dp"
                         android:padding="8dp"
+                        android:textSize="18sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
                         app:layout_constraintStart_toStartOf="parent"
@@ -268,7 +272,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/editText">
+                        app:layout_constraintTop_toBottomOf="@+id/translatedTV">
 
                         <TextView
                             android:layout_width="0dp"
